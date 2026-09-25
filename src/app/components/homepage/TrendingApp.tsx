@@ -1,12 +1,7 @@
 import { TApp } from '@/types/apps.type';
 import React from 'react';
 import AppCard from '../shared/AppCard';
-
-const getAllApp = async () => {
-    const res = await fetch('http://localhost:3000/data.json');
-    const data = await res.json();
-    return data;
-}
+import { getAllApp } from '@/lib/Apps';
 
 
 const TrendingApp = async () => {

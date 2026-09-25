@@ -1,5 +1,5 @@
-import Banner from "@/components/homepage/Banner";
-import TrendingApp from "@/components/homepage/TrendingApp";
+import Banner from "@/app/components/homepage/Banner";
+import TrendingApp from "@/app/components/homepage/TrendingApp";
 import Image from "next/image";
 
 export default function Home() {
