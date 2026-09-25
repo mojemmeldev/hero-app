@@ -1,4 +1,5 @@
-import Banner from "@/components/Banner";
+import Banner from "@/components/homepage/Banner";
+import TrendingApp from "@/components/homepage/TrendingApp";
 import Image from "next/image";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       hiii
       <Banner/>
+      <TrendingApp/>
     </div>
   );
 }
